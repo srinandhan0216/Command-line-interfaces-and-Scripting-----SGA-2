@@ -1,0 +1,15 @@
+File 'employees.dat' created successfully.
+4 employee records written.
+
+---- All records after initial write ----
+Record 0 -> ID: 101, Name: Rahul Sharma, Salary: 45000.00
+Record 1 -> ID: 102, Name: Priya Nair, Salary: 52000.00
+Record 2 -> ID: 103, Name: Amit Verma, Salary: 38000.00
+Record 3 -> ID: 104, Name: John Mathew, Salary: 61000.00
+
+---- Updating record 2 (Amit Verma) ----
+Record 2 updated: new salary = 42000.00
+
+---- Verifying after update ----
+Record 2 -> ID: 103, Name: Amit Verma, Salary: 42000.00
+Record 0 -> ID: 101, Name: Rahul Sharma, Salary: 45000.00

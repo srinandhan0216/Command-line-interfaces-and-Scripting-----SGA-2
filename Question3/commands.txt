@@ -1,0 +1,6 @@
+mkdir -p ~/LinuxLab/Question3
+cd ~/LinuxLab/Question3
+gcc employee.c -o employee
+./employee | tee output.txt
+ls -la employees.dat
+xxd employees.dat | head -20
