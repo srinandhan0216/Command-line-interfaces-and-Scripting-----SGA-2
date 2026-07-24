@@ -1,0 +1,4 @@
+max_retries=5
+server_port=8080
+max_connections=100
+timeout=60

@@ -1,0 +1,17 @@
+mkdir -p ~/LinuxLab/Question5
+cd ~/LinuxLab/Question5
+echo "server_port=8080" > config.txt
+echo "max_connections=100" >> config.txt
+echo "timeout=30" >> config.txt
+cat config.txt
+vi config.txt
+   (typed: i, "max_retries=5", Esc -- then simulated crash by closing terminal without saving)
+ls -la
+vi -r config.txt
+   (pressed R to recover, then :wq to save)
+rm -f .config.txt.swp
+vi config.txt
+   (:set backup, edited timeout=30 to timeout=60, :w, :q)
+ls -la
+vi config.txt
+   (dd to delete a line, u to undo, p to paste from register, :q! to quit without saving)
