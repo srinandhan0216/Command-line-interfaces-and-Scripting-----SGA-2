@@ -1,0 +1,11 @@
+mkdir -p ~/LinuxLab/Question4
+cd ~/LinuxLab/Question4
+chmod +x generate_logs.sh
+touch app.log
+tail -f app.log | grep --line-buffered "ERROR" | tee -a error_report.txt
+./generate_logs.sh
+cat error_report.txt
+cat app.log
+grep "ERROR" app.log > /dev/null
+echo "Exit status: $?"
+tail -f app.log 2>/dev/null | grep "ERROR"
