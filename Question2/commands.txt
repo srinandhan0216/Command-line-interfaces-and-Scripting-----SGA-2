@@ -1,0 +1,7 @@
+mkdir -p ~/LinuxLab/Question2
+cd ~/LinuxLab/Question2
+gcc --version
+gcc process.c -o process
+./process | tee output.txt
+ps aux | grep defunct
+ps -ef | grep process

@@ -1,0 +1,15 @@
+Parent process started. PID = 2283
+Child 0 (PID=2285) started, will run for 2 seconds.
+Child 0 (PID=2285) finished work normally.
+Parent process started. PID = 2283
+Child 1 (PID=2286) started, will run for 4 seconds.
+Child 1 (PID=2286) finished work normally.
+Parent process started. PID = 2283
+Child 2 (PID=2287) started, will run for 6 seconds.
+Child 2 (PID=2287) finished work normally.
+Parent process started. PID = 2283
+Parent: Child 0 (PID=2285) exited normally with status 0.
+Parent: Child 1 (PID=2286) exited normally with status 0.
+Parent: Child 2 (PID=2287) exited normally with status 0.
+Parent: Child 3 (PID=2288) exceeded timeout. Sending SIGTERM.
+Parent: All children have been handled. No zombies remain.
