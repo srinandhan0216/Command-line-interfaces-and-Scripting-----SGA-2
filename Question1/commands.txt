@@ -1,0 +1,14 @@
+mkdir -p ~/LinuxLab/Question1/submissions
+cd ~/LinuxLab/Question1
+echo "print('Hello World')" > submissions/rahul_asg1.py
+echo "print('Hello World')" > submissions/rahul_copy.py
+echo "print('Sum of numbers')" > submissions/priya_asg1.py
+echo "print('Sorting algorithm')" > submissions/amit_asg1.py
+echo "print('Sum of numbers')" > submissions/john_asg1.py
+ls submissions/
+chmod +x script.sh
+./script.sh
+cat report.txt
+ls backup/
+cat error.log
+cat checksums.txt

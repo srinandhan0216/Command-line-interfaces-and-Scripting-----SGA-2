@@ -1,0 +1,5 @@
+5c9e991eeec51e982dda14010298b16d  submissions/amit_asg1.py
+23a38708d39906fa531dfc28c3f18351  submissions/john_asg1.py
+23a38708d39906fa531dfc28c3f18351  submissions/priya_asg1.py
+a370c61b712fd531c59274049744132d  submissions/rahul_asg1.py
+a370c61b712fd531c59274049744132d  submissions/rahul_copy.py
